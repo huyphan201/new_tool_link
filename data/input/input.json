@@ -1,0 +1,18 @@
+{ "json_web":[
+{ 
+        "web_name": "tienphong",
+        "num": 7,
+        "links_xpath": "//h3[@class='story__heading']//a//@href",
+        "title_select": "div.row.justify-content-between.article > header > h1", 
+        "description_select": "div.article__sapo.cms-desc",
+        "content_select": "div.article__body.cms-body p",
+        "image_xpath": "//td//img//@data-src",
+        "cate_xpath": "//ul[@class='menu']//li//a//@href",
+        "time_select": "span.time time",
+        "author_select": "span.cms-author",
+        "link_domain": "https://tienphong.vn",
+        "tags_select": "div.article__tag div.box-content a"
+
+}
+]
+}
